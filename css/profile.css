@@ -1,0 +1,28 @@
+﻿@import url(sanitize.css);
+body
+{
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    background-color:#d17c18;
+}
+img {
+    overflow: hidden; /* はみ出る部分を隠す */
+    aspect-ratio: 1 / 1; /* アスペクト比 */
+    border-radius: 100vh; /* 丸型にする */
+    max-width: 30%;
+    width: 60%;
+    height: 90%;
+    object-fit: cover;
+}
+.profile2 p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top{
+    justify-content:center;
+    text-align:center;
+}
+a {
+    font-size: 2.0em;
+     padding: 0px 600px;
+}

@@ -1,0 +1,101 @@
+﻿@import url(sanitize.css);
+/*PC用*/
+body {
+    background-color: #f8d201;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.toppage {
+    height: auto;
+}
+.toppage h1 {
+    font-size: 2.5em;
+}
+
+.toppage2 {
+
+    height: auto;
+}
+
+.toppage3 {
+    height: auto; /*縦幅*/
+}
+
+.toppage3 li {
+    padding: 0 10px;
+    font-size: 1.5em;
+    display: inline;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul.nav {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    text-align: center;
+    font-size: 2.0em;
+    justify-content: center;
+}
+
+img {
+    overflow: hidden; /* はみ出る部分を隠す */
+    aspect-ratio: 1 / 1; /* アスペクト比 */
+    border-radius: 100vh; /* 丸型にする */
+    max-width: 80%;
+    width: 60%;
+    height: 90%;
+    object-fit: cover;
+}
+
+
+/*タブレット用*/
+@media(max-width:1000px) {
+    .profile {
+        flex-direction: column;
+        text-align:center;
+        justify-content:center;
+        font-size:1.5em;
+    }
+    ul.nav {
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+
+    img {
+        max-width: 50%;
+        width: 50%;
+        height: 70%;
+    }
+ 
+}
+
+/*スマホ用*/
+@media(max-width:400px) {
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+
+    .profile {
+        max-width: 50%;
+        width: 50%;
+        height: auto;
+        font-size: 1.0em;
+        justify-content: center;
+        text-align: center;
+    }
+    .top2 h1{
+        font-size:1.5em;
+    }
+
+    ul.nav{
+        font-size:0.7em;
+    }
+}
+
+
+    

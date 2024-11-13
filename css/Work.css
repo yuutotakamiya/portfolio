@@ -1,0 +1,54 @@
+﻿@import url(sanitize.css);
+body
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*3Dアクション*/
+.Work2 {
+    display:flex;
+}
+.Work2 img{
+    width:500px;
+    height:auto;
+}
+.Work2 p{
+    font-size:1.5em;
+}
+/*2Dシューティング*/
+.Work3{
+    display:flex;
+}
+.Work3 img{
+    width:500px;
+    height:auto;
+}
+.Work3 p{
+    font-size:1.5em;
+}
+.Work4 {
+    display: flex;
+}
+
+/*3D表現で作ったもの*/
+.Work4 img {
+   width: 500px;
+   height: auto;
+}
+
+.Work4 p {
+  font-size: 1.5em;
+}
+
+/*トップページへ戻るリンク*/
+a {
+    font-size: 1.6em;
+    padding: 0px 500px;
+    font-family: cursive;
+}
+/*見出し*/
+.Work h1 {
+    color: red;
+    font-family: "MS 明朝";
+}
+
+
