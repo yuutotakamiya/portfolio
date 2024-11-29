@@ -8,36 +8,47 @@ body
     display:flex;
 }
 .Work2 img{
-    width:500px;
+    width:400px;
     height:auto;
 }
 .Work2 p{
-    font-size:1.5em;
+    font-size:1.2em;
 }
 /*2Dシューティング*/
 .Work3{
     display:flex;
 }
 .Work3 img{
-    width:500px;
+    width:400px;
     height:auto;
 }
 .Work3 p{
-    font-size:1.5em;
+    font-size:1.2em;
 }
 .Work4 {
     display: flex;
 }
+.Work4 img{
+    width:100px;
+    height:100px;
+}
+/*2Dアクション*/
+.Work2 video{
+    width:500px;
+    height:auto;
+}
 
 /*3D表現で作ったもの*/
 .Work4 img {
-   width: 500px;
+   width: 400px;
    height: auto;
 }
 
 .Work4 p {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
+
+.
 
 /*トップページへ戻るリンク*/
 a {

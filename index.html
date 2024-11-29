@@ -1,33 +1,318 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/index.css">
-    <title>トップページ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property='og:type' content='website'>
+    <meta property='og:title' content='YUUTO TAKAMIYA ポートフォリオ'>
+    <!--<meta property='og:url' content='URLが入る'>-->
+    <meta property='og:description' content='YUUTO TAKAMIYAのポートフォリオサイトです。'>
+    <meta property="og:image" content="img/ogp.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YUUTO TAKAMIYAのポートフォリオサイトです" />
+    <title>YUUTO TAKAMIYA ポートフォリオ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!--<link rel=”canonical” href=”URLが入る” />-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />-->
 </head>
 <body>
-    <div class="top">
-        <nav class="top2">
-            <h1>トップページ</h1>
-            <div class="toppage3">
-                <ul class="nav">
-                    <li><a href="profile.html">プロフィールページ</a></li>
-                    <li><a href="Workintroduction.html">作品紹介</a></li>
-                    <li><a href="inquiry.html">お問い合わせ</a></li>
+<div id="canvas"></div>
+<canvas id="bg"></canvas>
+<!--<div class="wrapper">-->
+    <!-- header -->
+    <header class="header ">
+        <div class="container">
+            <h1 class="header-logo">
+                <a href=".">YUUTO TAKAMIYA</a>
+            </h1>
+
+            <nav class="gnav">
+                <ul class="gnav-list">
+                    <li class="gnav-item"><a href="#works">WORKS</a></li>
+                    <li class="gnav-item"><a href="#skill">SKILL</a></li>
+                    <!--<li class="gnav-item"><a href="#about">ABOUT</a></li>-->
+                    <li class="gnav-item"><a href="#contact">CONTACT</a></li>
                 </ul>
-            </div>
-        </nav>
-        <div class="profile">
-            <div class="img">
-                <img src="img/1301.jpg" />
-            </div>
-            <div class="box">
-                <h1>初めまして</h1>
-                <p>ゲームエンジニア学科1年高宮祐翔です</p>
-                <p>よろしくお願いします</p>
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
+    <main class="content">
+        <!-- mv -->
+        <div class="mv">
+            <div class="mv-container">
+                <p class="mv-title">YUUTO TAKAMIYA</p>
+                <p class="mv-subtitle">PORTFOLIO</p>
+                <p class="mv-text">
+                    こんにちは。<br class="sp-only"><br>
+                    <br class="sp-only">高宮祐翔(たかみや　ゆうと)と申します。<br>
+                <img src="img/skill_github.png" height="100" alt=""></p>
+                    <a href="https://github.com/yuutotakamiya">github</a>
             </div>
         </div>
+        <!-- /mv -->
+
+        <!-- works -->
+        <section class="works section" id="works">
+            <div class="container">
+                <h2 class="title">WORK</h2>
+                <div class="works-list">
+                    <a class="works-item" href="#works">
+                        <div class="works-video"><iframe src="https://www.youtube.com/embed/KTZSIvruXEM?si=bGFA4nmK3j_FU352" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <p class="works-name">Search The hidden</p>
+                        <p class="works-info">一年生の後期の時に作った2Dアクションゲームです。TCP通信を使って制作をしました</p>
+                    </a>
+                    <a class="works-item" href="#works">
+                        <div class="works-video"><iframe src="https://www.youtube.com/embed/32fswpyQXGg?si=yQV3t9p4Q6Wt8mvy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <p class="works-name">キューブ・ランド・パズル</p>
+                        <p class="works-info">2年生前期にAPIを使用し、unityで制作したカジュアルパズルゲームです。</p>
+                    </a>
+                    <a class="works-item" href="#works">
+                        <div class="works-video"><iframe src="https://www.youtube.com/embed/sZQVkIkh50c?si=Xu6PlIrlsFfxmXFj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></video></div>
+                        <p class="works-name">とらっしゅぽーしょん</p>
+                        <p class="works-info">1年生後期のときにチーム制作で作ったTCP通信を使ったオンラインゲームです</p>
+                    </a>
+                    <a class="works-item" href="#works">
+                        <div class="works-video"><iframe src="https://www.youtube.com/embed/rt8DrOS95D4?si=wp6IVsW7QMVo6QBX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <p class="works-name">FruitsEater</p>
+                        <p class="works-info">SapporoGameCampで制作したゲームです。</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- /works -->
+
+        <!-- skill -->
+        <section class="skill section" id="skill">
+            <div class="container">
+                <h2 class="title">SKILL</h2>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_html.png"></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">HTML</h3>
+                            <p class="skill-text">
+                                経歴：半年</p>
+                            <p class="skill-text">
+                            ポートフォリオと管理ツール作成時に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_css.png"></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">CSS</h3>
+                            <p class="skill-text">
+                                経歴：半年</p>
+                            <p class="skill-text">
+                                ポートフォリオと管理ツール作成時に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_javascript.png"></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">JavaScript</h3>
+                            <p class="skill-text">
+                                ポートフォリオと管理ツール作成時に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_c.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">C言語</h3>
+                            <p class="skill-text">
+                                経歴:半年</p>
+                            <p class="skill-text">
+                            コンソールでシューティングゲームを制作するときに使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_c%23.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">C#</h3>
+                            <p class="skill-text">
+                                経歴：1年半</p>
+                            <p class="skill-text">
+                            Unityでパズルゲームやアクションゲームを制作したときに使用しました。</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_php.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">PHP</h3>
+                            <p class="skill-text">
+                                経歴:一年</p>
+                            <p class="skill-text">
+                            データベースやAPI作成時に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_github.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">gitHub</h3>
+                            <p class="skill-text">
+                                経歴:一年</p>
+                            <p class="skill-text">
+                            ゲーム制作時に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_sourcetree.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">sourcetree</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">
+                                チーム制作でプログラムの分担やデータの管理に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_azure.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">Azure</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">
+                            ゲーム制作でオンライン対応やサーバーを一から構築するために使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_docker.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">Docker</h3>
+                            <p class="skill-text">
+                                経歴:半年</p>
+                            <p class="skill-text">
+                            ゲーム制作時にローカルでデバックするときに使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_ubuntu.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">ubuntu</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">
+                            コマンドの授業やゲーム制作で作ったもの管理するために使用しました
+                            </p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_mysql.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">MySQL</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">
+                            データベース管理に使用しました</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /FW -->
+        <section class="skill section" id="FW">
+            <div class="container">
+                <h2 class="title">FW・IDE</h2>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_laravel.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">Laravel</h3>
+                            <p class="skill-text">
+                                経歴:一年</p>
+                            <p class="skill-text">
+                                PHPStormでWebAPI構築時にLaravelフレームワークを使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_phpstorm.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">PHPStorm</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">
+                                API、ポートフォリオ、管理ツール作成時に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_unity.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">Unity</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">
+                                ゲーム制作に使用しました</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p class="skill-img"><img src="img/skill_visualstudio2022.png" alt=""></p>
+                        <div class="skill-body">
+                            <h3 class="skill-name">VisualStudio2022</h3>
+                            <p class="skill-text">
+                                経歴:1年半</p>
+                            <p class="skill-text">C#でプログラム、Unityでゲーム制作時に使用しました</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <!--<section class="about section" id="about">
+            <div class="container">
+                <h2 class="title">ABOUT</h2>
+                <div class="profile">
+                    <p class="profile-img">
+                        <img src="img/profile.jpg" alt="">
+                    </p>
+                    <div class="profile-body">
+                        <p>
+
+                        </p>
+                        <p>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <-- /about -->
+
+        <!-- contact -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="title">CONTACT</h2>
+                <p class="lead">
+                    お問い合わせは、<br class="sp-only">メールにてお願いいたします。
+                </p>
+                <div class="contact-list">
+                    <span class="contact-item">231065@st.yoshida-g.ac.jp</span>
+                </div>
+            </div>
+        </section>
+        <!-- /contact -->
+        <div class="page-top" id="js-page-top">
+            <span class="material-icons-outlined">expand_less</span>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copyright">&copy;YUUTO TAKAMIYA</div>
+    </footer>
+    <!-- /footer -->
     </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type='text/javascript' src="js/script.js"></script>
+<script src="js/particle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+<script src="js/menu.js"></script>
+
 </body>
 </html>
